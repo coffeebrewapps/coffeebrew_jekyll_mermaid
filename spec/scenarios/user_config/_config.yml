@@ -1,0 +1,11 @@
+coffeebrew_jekyll_mermaid:
+  src: "https://cdn.jsdelivr.net/npm/mermaid@10.0.2/dist/svgDraw-c034b55e.min.js"
+  theme:
+    base: "forest"
+    variables:
+      primaryColor: "#123"
+      primaryTextColor: "#456"
+      primaryBorderColor: "#789"
+      lineColor: "#abc"
+      secondaryColor: "#def"
+      tertiaryColor: "#000"

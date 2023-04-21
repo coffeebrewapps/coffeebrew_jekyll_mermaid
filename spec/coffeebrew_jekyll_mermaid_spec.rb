@@ -3,6 +3,7 @@
 require "spec_helper"
 
 require_relative "./scenarios/default/context"
+require_relative "./scenarios/user_config/context"
 
 SUCCESS_EXAMPLE = "generate example pages correctly"
 
@@ -61,6 +62,12 @@ RSpec.describe(Coffeebrew::Jekyll::Mermaid) do
 
     context CONTEXT_DEFAULT do
       include_context CONTEXT_DEFAULT do
+        it_behaves_like SUCCESS_EXAMPLE
+      end
+    end
+
+    context CONTEXT_USER_CONFIG do
+      include_context CONTEXT_USER_CONFIG do
         it_behaves_like SUCCESS_EXAMPLE
       end
     end
