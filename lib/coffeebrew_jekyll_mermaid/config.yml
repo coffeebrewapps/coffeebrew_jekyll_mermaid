@@ -1,0 +1,11 @@
+coffeebrew_jekyll_mermaid:
+  src: "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"
+  theme:
+    base: "base"
+    variables:
+      primaryColor: "#f4e3d7"
+      primaryTextColor: "#502d16"
+      primaryBorderColor: "#784421"
+      lineColor: "#784421"
+      secondaryColor: "#a05a2c"
+      tertiaryColor: "#c87137"
