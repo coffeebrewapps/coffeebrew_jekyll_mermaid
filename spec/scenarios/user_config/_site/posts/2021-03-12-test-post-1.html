@@ -1,0 +1,26 @@
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10.0.2/dist/svgDraw-c034b55e.min.js';
+  mermaid.initialize({
+    startOnLoad: true,
+  });
+</script>
+<pre class="mermaid">
+%%{
+  init: {
+    'theme': 'forest',
+    'themeVariables': {
+      "primaryColor": "#123",
+      "primaryTextColor": "#456",
+      "primaryBorderColor": "#789",
+      "lineColor": "#abc",
+      "secondaryColor": "#def",
+      "tertiaryColor": "#000"
+    }
+  }
+}%%
+graph TD;
+    A--&gt;B;
+    A--&gt;C;
+    B--&gt;D;
+    C--&gt;D;
+</pre>
