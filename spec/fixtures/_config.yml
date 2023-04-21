@@ -1,0 +1,9 @@
+timezone: UTC
+url: "https://coffeebrew-jekyll-mermaid.com"
+
+defaults:
+  - scope:
+      type: "posts"
+    values:
+      layout: "default"
+      permalink: /posts/:name:output_ext
