@@ -1,4 +1,4 @@
-baseurl: /coffeebrew_jekyll_mermaid
+baseurl:
 theme: coffeebrew_jekyll_docs
 
 exclude:
